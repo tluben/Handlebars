@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $(."devour-form").on("submit", function (event){
+  $(".devour-form").on("submit", function (event){
     event.preventDefault()
     var burgerid = $(this).children(".burger_id").val() 
     console.log(burgerid)
